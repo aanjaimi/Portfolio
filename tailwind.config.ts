@@ -30,7 +30,7 @@ const config: Config = {
       },
       backgroundImage: {
         site: "url('../../public/site-bg.jpeg')",
-        about: "url('../../public/about.jpeg')",
+        about: "url('../../public/avatar.png')",
         services: "url('../../public/services.png')", 
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

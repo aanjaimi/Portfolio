@@ -40,20 +40,19 @@ const Banner = () => {
             </motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <button className='btn btn-lg'>
+              <a href="#contact">
                 Contact me
-              </button>
-              <a href="#contact" className='text-gradient btn-link'>
-                My Portfolio
               </a>
+              </button>
             </motion.div>
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.7 }} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="#">
+              <a href="https://github.com/aanjaimi">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/ayoub-anjaimi-3b1150240">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://gitlab.com/aanjaimi">
                 <FaGitlab />
               </a>
             </motion.div>
