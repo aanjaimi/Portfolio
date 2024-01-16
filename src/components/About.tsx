@@ -25,19 +25,24 @@ const About = () => {
             className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
             ref={ref}
           ></motion.div>
-          <motion.div 
+          <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1">
+            className="flex-1"
+          >
             <h2 className="h2 text-accent">About me.</h2>
-            <h3 className="h3 mb-4">I am a Developer with over 2 years of experience.</h3>
+            <h3 className="h3 mb-4">
+              I am a Developer with over 2 years of experience.
+            </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quis
-              vitae officia minima nemo praesentium excepturi fuga aliquam saepe
-              molestias? Voluptatum deserunt a quas ipsa maxime reiciendis. Quo,
-              eveniet consectetur.
+              I have a passion for tackling complex challenges and a knack for
+              problem-solving, I thrive in the dynamic world of web development.
+              My journey began by learning the fundamental languages of the web
+              - HTML, CSS, and JavaScript. As I honed my front-end skills, I
+              developed an eye for creating captivating user experiences while
+              ensuring intuitive and responsive designs.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12 mt-6">
               <div>

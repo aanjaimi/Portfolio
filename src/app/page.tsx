@@ -1,10 +1,10 @@
-import About from '@/components/About'
-import Banner from '@/components/Banner'
-import Contact from '@/components/Contact'
-import Header from '@/components/Header'
-import Navbar from '@/components/Navbar'
-import Services from '@/components/Services'
-import Work from '@/components/Work'
+import About from "@/components/About";
+import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
+import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
       <Services />
       <Work />
       <Contact />
-      <div className='h-[4000px]'></div>
     </div>
-  )
+  );
 }
